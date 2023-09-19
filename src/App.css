@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Mundial';
+  src: url('../src/assets/MundialRegular.otf') format('truetype');
+}
+
+body {
+  font-family: 'Mundial', sans-serif;
+}
+
+.top-nav {
+  /* background: #1F1A2F; */
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.App {
+  background-image: url('../src/assets/Footer\ BG.svg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #2c012c; */
+}
+
+.primary-button {
+  padding: 15px;
+  background: linear-gradient(45deg, #C5ECFF, #E496FF);
+  border-color: transparent;
+  border-radius: 16.3px;
+  width: 200px;
+}
+
+.primary-text {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.banner-how-to-join {
+  background-image: url('../src/assets/Images/members_page_banner.jpg');
+  background-position: center;
+}
+
+.hire-us-banner {
+  background-image: url('../src/assets/Images/clients_page_banner.jpg');
+  background-position: center;
+}
+
+.banner {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.see-more {
+  background: linear-gradient(95deg, #C7E8FF 0%, #DC99FF 100%);
+  -webkit-background-clip: text;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.heading-text {
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  color: white;
+  font-size: 18px;
+}
+
+hr {
+  opacity: 1;
+  background: white;
+  margin: 4rem 0;
+}
+
+.modal-dialog {
+  max-width: 70%;
+  margin: 0px auto;
+}
+
+.modal-body {
+  background: rgba(143, 78, 184, 0.66);
+}
+
+.worldmap__figure-container {
+  background-color: transparent !important;
+  text-align: center;
+}
+
+.modal-header-text {
+  font-size: 44px;
+}
+
+.iframe-map {
+  height: 150vh;
+}
+
+
+@media (max-width: 768px) {
+  .banner {
+    background-size: contain;
+    height: 25vh;
+  }
+
+  .modal-header-text {
+    font-size: 30px;
+  }
+
+  .modal-header-desc {
+    font-size: 15px;
+  }
+
+  .modal-dialog {
+    max-width: 90%;
+  }
+
+  .iframe-map {
+    height: 50vh;
+  }
+}
