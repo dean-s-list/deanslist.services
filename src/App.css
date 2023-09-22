@@ -25,7 +25,7 @@ body {
 
 .primary-button {
   padding: 15px;
-  background: linear-gradient(45deg, #C5ECFF, #E496FF);
+  background: linear-gradient(45deg, #c5ecff, #e496ff);
   border-color: transparent;
   border-radius: 16.3px;
   width: 200px;
@@ -53,7 +53,7 @@ body {
 }
 
 .see-more {
-  background: linear-gradient(95deg, #C7E8FF 0%, #DC99FF 100%);
+  background: linear-gradient(95deg, #c7e8ff 0%, #dc99ff 100%);
   -webkit-background-clip: text;
   font-weight: 600;
   -webkit-text-fill-color: transparent;
@@ -98,7 +98,6 @@ hr {
 .iframe-map {
   height: 150vh;
 }
-
 
 @media (max-width: 768px) {
   .banner {

@@ -1,90 +1,90 @@
 [
-    {
-        "Country": "Greece",
-        "Earnings ($)": 22141.279622642
-    },
-    {
-        "Country": "Nigeria",
-        "Earnings ($)": 16781.190029638
-    },
-    {
-        "Country": "Pakistan",
-        "Earnings ($)": 6649.403490566
-    },
-    {
-        "Country": "Canada",
-        "Earnings ($)": 5196.1396226415
-    },
-    {
-        "Country": "USA",
-        "Earnings ($)": 2707.43
-    },
-    {
-        "Country": "France",
-        "Earnings ($)": 1878.9483185841
-    },
-    {
-        "Country": "Portugal",
-        "Earnings ($)": 1593.9
-    },
-    {
-        "Country": "Brazil",
-        "Earnings ($)": 1488.56
-    },
-    {
-        "Country": "Japan",
-        "Earnings ($)": 1375
-    },
-    {
-        "Country": "Belgium",
-        "Earnings ($)": 861.9
-    },
-    {
-        "Country": "Australia",
-        "Earnings ($)": 735.46
-    },
-    {
-        "Country": "India",
-        "Earnings ($)": 566.14
-    },
-    {
-        "Country": "United Kingdom",
-        "Earnings ($)": 343.69
-    },
-    {
-        "Country": "Spain",
-        "Earnings ($)": 181.16
-    },
-    {
-        "Country": "Indonesia",
-        "Earnings ($)": 100
-    },
-    {
-        "Country": "Slovenia",
-        "Earnings ($)": 84
-    },
-    {
-        "Country": "Germany",
-        "Earnings ($)": 50
-    },
-    {
-        "Country": "Vietnam",
-        "Earnings ($)": 47.1
-    },
-    {
-        "Country": "Argentina",
-        "Earnings ($)": 32.14
-    },
-    {
-        "Country": "Philipines",
-        "Earnings ($)": 28.04
-    },
-    {
-        "Country": "Serbia",
-        "Earnings ($)": 24.12
-    },
-    {
-        "Country": "Guatemala",
-        "Earnings ($)": 21.72
-    }
+  {
+    "Country": "Greece",
+    "Earnings ($)": 22141.279622642
+  },
+  {
+    "Country": "Nigeria",
+    "Earnings ($)": 16781.190029638
+  },
+  {
+    "Country": "Pakistan",
+    "Earnings ($)": 6649.403490566
+  },
+  {
+    "Country": "Canada",
+    "Earnings ($)": 5196.1396226415
+  },
+  {
+    "Country": "USA",
+    "Earnings ($)": 2707.43
+  },
+  {
+    "Country": "France",
+    "Earnings ($)": 1878.9483185841
+  },
+  {
+    "Country": "Portugal",
+    "Earnings ($)": 1593.9
+  },
+  {
+    "Country": "Brazil",
+    "Earnings ($)": 1488.56
+  },
+  {
+    "Country": "Japan",
+    "Earnings ($)": 1375
+  },
+  {
+    "Country": "Belgium",
+    "Earnings ($)": 861.9
+  },
+  {
+    "Country": "Australia",
+    "Earnings ($)": 735.46
+  },
+  {
+    "Country": "India",
+    "Earnings ($)": 566.14
+  },
+  {
+    "Country": "United Kingdom",
+    "Earnings ($)": 343.69
+  },
+  {
+    "Country": "Spain",
+    "Earnings ($)": 181.16
+  },
+  {
+    "Country": "Indonesia",
+    "Earnings ($)": 100
+  },
+  {
+    "Country": "Slovenia",
+    "Earnings ($)": 84
+  },
+  {
+    "Country": "Germany",
+    "Earnings ($)": 50
+  },
+  {
+    "Country": "Vietnam",
+    "Earnings ($)": 47.1
+  },
+  {
+    "Country": "Argentina",
+    "Earnings ($)": 32.14
+  },
+  {
+    "Country": "Philipines",
+    "Earnings ($)": 28.04
+  },
+  {
+    "Country": "Serbia",
+    "Earnings ($)": 24.12
+  },
+  {
+    "Country": "Guatemala",
+    "Earnings ($)": 21.72
+  }
 ]
