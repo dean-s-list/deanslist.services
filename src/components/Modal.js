@@ -8,7 +8,7 @@ function DetailsModal({ show, handleClose, item }) {
         <Modal.Body>
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <img src={item.image} alt="Image" style={{ width: '100%' }} />
+              <img src={item.image} alt="Item" style={{ width: '100%' }} />
             </div>
             <div className="col-lg-7">
               <p className="primary-text modal-header-text">{item.heading}</p>

@@ -10,7 +10,6 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    // <Router>
     <div className="App">
       <TopNav />
       <div style={{ paddingTop: '70px' }}>
@@ -23,7 +22,6 @@ function App() {
         <Footer />
       </div>
     </div>
-    // </Router>
   )
 }
 

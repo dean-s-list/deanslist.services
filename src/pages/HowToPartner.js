@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import arrow from '../assets/arrow.svg'
 import DetailsModal from '../components/Modal'
 import declaration from '../assets/Images/declaration.jpg'
-import our_processes from '../assets/Images/our_processes.png'
-import case_studies from '../assets/Images/case_studies.jpg'
-import store from '../assets/Images/store.jpg'
+import our_processes from '../assets/Images/our-processes.png'
 
 const HowToPartner = () => {
   const [show, setShow] = useState(false)
@@ -65,46 +63,6 @@ const HowToPartner = () => {
             </div>
           )
         })}
-
-        {/* <div className='clients'>
-          <p className='heading-text'>Our Clients</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='process'>
-          <p className='heading-text'>Our Process</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='case'>
-          <p className='heading-text'>Case Studies</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='storefront'>
-          <p className='heading-text'>Storefront</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div> */}
       </div>
     </div>
   )

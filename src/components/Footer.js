@@ -1,6 +1,6 @@
 import React from 'react'
-import solanaImg from '../assets/Solana.svg'
-import groupImg from '../assets/Icongroup.svg'
+import solanaImg from '../assets/solana.svg'
+import groupImg from '../assets/icon-group.svg'
 
 const Footer = () => {
   return (

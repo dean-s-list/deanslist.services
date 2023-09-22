@@ -8,25 +8,19 @@ const COLORS = {
 }
 
 const MenuLabel = styled.label`
-  //   background-color: ${COLORS.primaryLight};
   position: fixed;
-  top: 0px;
-  //   top: 6rem;
-  //   right: 6rem;
+  top: 0;
   border-radius: 50%;
   height: 4rem;
   width: 4rem;
   cursor: pointer;
   z-index: 1000;
-  //   box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
   text-align: center;
 `
 
 const NavBackground = styled.div`
   position: fixed;
-  //   top: 6.5rem;
-  top: 0px;
-  //   right: 6.5rem;
+  top: 0;
   background-image: radial-gradient(${COLORS.primaryDark}, ${COLORS.primaryLight});
   height: 4rem;
   width: 4rem;
@@ -86,9 +80,7 @@ const Navigation = styled.nav`
   width: ${(props) => (props.clicked ? '100%' : '0')};
   opacity: ${(props) => (props.clicked ? '1' : '0')};
 
-  transition:
-    width 0.8s,
-    opacity 0.8s;
+  transition: width 0.8s, opacity 0.8s;
 `
 
 const List = styled.ul`

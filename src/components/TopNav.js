@@ -1,6 +1,5 @@
 import React from 'react'
-import menuIcon from '../assets/Menu Icon.svg'
-import logo from '../assets/Logo.svg'
+import logo from '../assets/logo.svg'
 import HamburgerMenu from './Hamburgermenu'
 
 const TopNav = () => {

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import arrow from '../assets/arrow.svg'
 import DetailsModal from '../components/Modal'
 import declaration from '../assets/Images/declaration.jpg'
-import our_processes from '../assets/Images/our_processes.png'
-import case_studies from '../assets/Images/case_studies.jpg'
+import our_processes from '../assets/Images/our-processes.png'
+import case_studies from '../assets/Images/case-studies.jpg'
 import store from '../assets/Images/store.jpg'
 
 const HowToHire = () => {
@@ -44,11 +44,11 @@ const HowToHire = () => {
           community. Our deep dive spans a 2 week period where our community of power users dissect through your
           protocol and social infrastructure delivering valuable feedback on:
           <ul>
-            <li>UI / UX improvements </li>
-            <li>GTM strategy </li>
-            <li>Proofing your socials </li>
-            <li>User Insights derived from blockchain data </li>
-            <li>Feature requests for experience improvement </li>
+            <li>UI / UX improvements</li>
+            <li>GTM strategy</li>
+            <li>Proofing your socials</li>
+            <li>User Insights derived from blockchain data</li>
+            <li>Feature requests for experience improvement</li>
           </ul>
           The end result is packaged in a neat document for ready perusal by the team to address in their own time.
         </p>
@@ -62,10 +62,10 @@ const HowToHire = () => {
         <p>
           Here is a flavor of how we have helped some of the best protocols achieve the best results.
           <ul>
-            <li>Underdog Protocol </li>
-            <li>dReader </li>
-            <li>Sujiko </li>
-            <li>Tensor </li>
+            <li>Underdog Protocol</li>
+            <li>dReader</li>
+            <li>Sujiko</li>
+            <li>Tensor</li>
           </ul>
         </p>
       ),
@@ -78,7 +78,7 @@ const HowToHire = () => {
         <p>
           If you've made it this far, you're another click away from our Store. If you are comfortable in what your
           purchase would be, click here -
-          <a style={{ color: 'white' }} target="_blank" href="store.deanslist.services">
+          <a style={{ color: 'white' }} href="https://store.deanslist.services" target="_blank" rel="noreferrer">
             store.deanslist.services
           </a>
           &nbsp;or set up a call with a sales representative by using the contact form here
@@ -108,46 +108,6 @@ const HowToHire = () => {
             </div>
           )
         })}
-
-        {/* <div className='clients'>
-          <p className='heading-text'>Our Clients</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='process'>
-          <p className='heading-text'>Our Process</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='case'>
-          <p className='heading-text'>Case Studies</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div>
-
-        <div className='storefront'>
-          <p className='heading-text'>Storefront</p>
-          <p className='description'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip</p>
-          <div className='d-flex align-items-center'>
-            <p className='me-2 mb-0 see-more' onClick={handleShow}>See More</p>
-            <img src={arrow} alt='arrow' />
-          </div>
-          <hr />
-        </div> */}
       </div>
     </div>
   )

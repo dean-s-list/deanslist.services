@@ -3,10 +3,10 @@ import arrow from '../assets/arrow.svg'
 import DetailsModal from '../components/Modal'
 import declaration from '../assets/Images/declaration.jpg'
 import citizenship from '../assets/Images/citizenship.png'
-import business_visa from '../assets/Images/business_visa.png'
-import our_nft from '../assets/Images/our_nft.jpg'
+import business_visa from '../assets/Images/business-visa.png'
+import our_nft from '../assets/Images/our-nft.jpg'
 import token from '../assets/Images/token.png'
-import real_life from '../assets/Images/real_life.jpg'
+import real_life from '../assets/Images/real-life.jpg'
 
 const HowToJoin = () => {
   const [show, setShow] = useState(false)
@@ -33,6 +33,7 @@ const HowToJoin = () => {
             style={{ color: 'white' }}
             href="https://www.deanslist.services/files/Deanlist_Declaration_Network_State.pdf"
             target="_blank"
+            rel="noreferrer"
           >
             https://www.deanslist.services/files/Deanlist_Declaration_Network_State.pdf
           </a>
@@ -60,6 +61,7 @@ const HowToJoin = () => {
             style={{ color: 'white' }}
             href="https://airtable.com/appPrRJIdqWfXLtlr/shr0U1ctnua5e68RU ]."
             target="_blank"
+            rel="noreferrer"
           >
             https://airtable.com/appPrRJIdqWfXLtlr/shr0U1ctnua5e68RU
           </a>
@@ -77,11 +79,21 @@ const HowToJoin = () => {
           strong reference to the Orwelian masterpiece Animal Farm, only that we believe all animals are equal & none
           are more equal than others. Put simply, no NFT has any special traits that grant it any superiority over
           another. This is a key point underpinning our Network State's culture. You can get yours here -
-          <a style={{ color: 'white' }} target="_blank" href="https://www.tensor.trade/trade/deanslist">
+          <a
+            style={{ color: 'white' }}
+            href="https://www.tensor.trade/trade/deanslist"
+            target="_blank"
+            rel="noreferrer"
+          >
             https://www.tensor.trade/trade/deanslist
           </a>
           &nbsp;and stake it here&nbsp;
-          <a style={{ color: 'white' }} href="https://stake.diamondvaults.io/vault/Deanslist" target="_blank">
+          <a
+            style={{ color: 'white' }}
+            href="https://stake.diamondvaults.io/vault/Deanslist"
+            target="_blank"
+            rel="noreferrer"
+          >
             https://stake.diamondvaults.io/vault/Deanslist
           </a>
           &nbsp;to earn the $DEAN token.
@@ -97,8 +109,9 @@ const HowToJoin = () => {
           The $DEAN token -
           <a
             style={{ color: 'white' }}
-            target="_blank"
             href="https://solscan.io/token/Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a8"
+            target="_blank"
+            rel="noreferrer"
           >
             https://solscan.io/token/Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a8
           </a>
@@ -111,6 +124,7 @@ const HowToJoin = () => {
             style={{ color: 'white' }}
             href="https://raydium.io/swap/?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a&fixed=out"
             target="_blank"
+            rel="noreferrer"
           >
             https://raydium.io/swap/?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a&fixed=out
           </a>
@@ -123,6 +137,7 @@ const HowToJoin = () => {
             style={{ color: 'white' }}
             href="https://deanmachine.medium.com/participation-a-new-idea-for-community-token-design-c7d9da025df3"
             target="_blank"
+            rel="noreferrer"
           >
             https://deanmachine.medium.com/participation-a-new-idea-for-community-token-design-c7d9da025df3
           </a>
@@ -143,8 +158,9 @@ const HowToJoin = () => {
           takeaways from it here -&nbsp;
           <a
             style={{ color: 'white' }}
-            target="_blank"
             href="https://drive.google.com/file/d/1uRyBFRMAE6v4aHrlM-pKb6IcOH1M2ZE2/view?usp=drivesdk"
+            target="_blank"
+            rel="noreferrer"
           >
             https://drive.google.com/file/d/1uRyBFRMAE6v4aHrlM-pKb6IcOH1M2ZE2/view?usp=drivesdk
           </a>
