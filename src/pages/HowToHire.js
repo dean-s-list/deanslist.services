@@ -1,23 +1,25 @@
 import React, { useState } from 'react'
 import arrow from '../assets/arrow.svg'
-import DetailsModal from '../components/Modal'
+import { DetailsModal } from '../components/Modal'
 import declaration from '../assets/Images/declaration.jpg'
 import our_processes from '../assets/Images/our-processes.png'
 import case_studies from '../assets/Images/case-studies.jpg'
 import store from '../assets/Images/store.jpg'
 
-const HowToHire = () => {
+export function HowToHire() {
   const [show, setShow] = useState(false)
   const [item, setItem] = useState('')
 
-  const handleClose = () => setShow(false)
+  function handleClose() {
+    return setShow(false)
+  }
 
-  const handleShow = (desc) => {
+  function handleShow(desc) {
     setItem(desc)
     setShow(true)
   }
 
-  const array = [
+  const items = [
     {
       image: declaration,
       heading: 'Our Clients',
@@ -92,25 +94,20 @@ const HowToHire = () => {
       <div className="banner hire-us-banner"></div>
       <div className="container mt-5">
         <DetailsModal show={show} handleShow={handleShow} handleClose={handleClose} item={item} />
-
-        {array?.map((item) => {
-          return (
-            <div className="declaration">
-              <p className="heading-text">{item.heading}</p>
-              <p className="description">{item.shortDesc}</p>
-              <div className="d-flex align-items-center">
-                <p className="me-2 mb-0 see-more" onClick={() => handleShow(item)}>
-                  See More
-                </p>
-                <img src={arrow} alt="arrow" />
-              </div>
-              <hr />
+        {items?.map((item) => (
+          <div className="declaration">
+            <p className="heading-text">{item.heading}</p>
+            <p className="description">{item.shortDesc}</p>
+            <div className="d-flex align-items-center">
+              <p className="me-2 mb-0 see-more" onClick={() => handleShow(item)}>
+                See More
+              </p>
+              <img src={arrow} alt="arrow" />
             </div>
-          )
-        })}
+            <hr />
+          </div>
+        ))}
       </div>
     </div>
   )
 }
-
-export default HowToHire

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import HowToJoin from './pages/HowToJoin'
-import HowToPartner from './pages/HowToPartner'
-import HowToHire from './pages/HowToHire'
-import TopNav from './components/TopNav'
+import { Home } from './pages/Home'
+import { HowToJoin } from './pages/HowToJoin'
+import { HowToPartner } from './pages/HowToPartner'
+import { HowToHire } from './pages/HowToHire'
+import { TopNav } from './components/TopNav'
+import { Footer } from './components/Footer'
 import './App.css'
-import Footer from './components/Footer'
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <TopNav />
@@ -24,5 +24,3 @@ function App() {
     </div>
   )
 }
-
-export default App

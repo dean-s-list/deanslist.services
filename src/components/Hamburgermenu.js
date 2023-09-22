@@ -112,7 +112,7 @@ const ItemLink = styled(NavLink)`
   }
 `
 
-function HamburgerMenu() {
+export function HamburgerMenu() {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
   return (
@@ -149,5 +149,3 @@ function HamburgerMenu() {
     </>
   )
 }
-
-export default HamburgerMenu

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import arrow from '../assets/arrow.svg'
-import DetailsModal from '../components/Modal'
+import { DetailsModal } from '../components/Modal'
 import declaration from '../assets/Images/declaration.jpg'
 import citizenship from '../assets/Images/citizenship.png'
 import business_visa from '../assets/Images/business-visa.png'
@@ -8,7 +8,7 @@ import our_nft from '../assets/Images/our-nft.jpg'
 import token from '../assets/Images/token.png'
 import real_life from '../assets/Images/real-life.jpg'
 
-const HowToJoin = () => {
+export function HowToJoin() {
   const [show, setShow] = useState(false)
   const [item, setItem] = useState('')
 
@@ -19,7 +19,7 @@ const HowToJoin = () => {
     setShow(true)
   }
 
-  const array = [
+  const items = [
     {
       image: declaration,
       heading: 'Declaration',
@@ -174,24 +174,20 @@ const HowToJoin = () => {
       <div className="banner-how-to-join banner"></div>
       <div className="container mt-5">
         <DetailsModal show={show} handleShow={handleShow} handleClose={handleClose} item={item} />
-        {array?.map((item) => {
-          return (
-            <div className="declaration">
-              <p className="heading-text">{item.heading}</p>
-              <p className="description">{item.shortDesc}</p>
-              <div className="d-flex align-items-center">
-                <p className="me-2 mb-0 see-more" onClick={() => handleShow(item)}>
-                  See More
-                </p>
-                <img src={arrow} alt="arrow" />
-              </div>
-              <hr />
+        {items?.map((item) => (
+          <div className="declaration">
+            <p className="heading-text">{item.heading}</p>
+            <p className="description">{item.shortDesc}</p>
+            <div className="d-flex align-items-center">
+              <p className="me-2 mb-0 see-more" onClick={() => handleShow(item)}>
+                See More
+              </p>
+              <img src={arrow} alt="arrow" />
             </div>
-          )
-        })}
+            <hr />
+          </div>
+        ))}
       </div>
     </div>
   )
 }
-
-export default HowToJoin

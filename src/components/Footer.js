@@ -2,7 +2,7 @@ import React from 'react'
 import solanaImg from '../assets/solana.svg'
 import groupImg from '../assets/icon-group.svg'
 
-const Footer = () => {
+export function Footer() {
   return (
     <div className="footer p-5">
       <div className="d-flex align-items-center justify-content-between">
@@ -18,5 +18,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer

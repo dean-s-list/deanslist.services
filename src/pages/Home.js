@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Home = () => {
+export function Home() {
   return (
     <div className="home-page px-5">
       <div style={{ textAlign: 'center' }}>
@@ -35,5 +35,3 @@ const Home = () => {
     </div>
   )
 }
-
-export default Home

@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal'
 
-function DetailsModal({ show, handleClose, item }) {
+export function DetailsModal({ show, handleClose, item }) {
   return (
     <>
       <Modal centered show={show} onHide={handleClose}>
@@ -27,5 +27,3 @@ function DetailsModal({ show, handleClose, item }) {
     </>
   )
 }
-
-export default DetailsModal
