@@ -25,19 +25,21 @@ export function HowToJoin() {
       heading: 'Declaration',
       shortDesc: 'Read Our Manifesto',
       longDesc: (
-        <p>
-          Every state needs a manifesto that defines its reason to exist, its present & its future. We call it our
-          Declaration - the act in time that bound us to the idea of transitioning from a Service DAO to a Network
-          State. You can read it here -{' '}
+        <div>
+          <p>
+            Every state needs a manifesto that defines its reason to exist, its present & its future. We call it our
+            Declaration - the act in time that bound us to the idea of transitioning from a Service DAO to a Network
+            State.
+          </p>
           <a
             style={{ color: 'white' }}
             href="https://www.deanslist.services/files/Deanlist_Declaration_Network_State.pdf"
             target="_blank"
             rel="noreferrer"
           >
-            https://www.deanslist.services/files/Deanlist_Declaration_Network_State.pdf
+            Read it here.
           </a>
-        </p>
+        </div>
       ),
     },
     {
@@ -52,20 +54,22 @@ export function HowToJoin() {
       heading: 'The Business Visa Program',
       shortDesc: 'Get started with our signature onboarding Program ',
       longDesc: (
-        <p>
-          The best way to get a feel of our Network State is to apply for a Business Visa which allows you 30 days of
-          access to certain USDC earning opportunities as well as a glimpse into how we operate. On the expiration of
-          the 30 day grace period, you may choose to renew for a monthly fee or, better yet, become a full citizen by
-          purchasing our NFT. Apply for a Business Visa here -{' '}
+        <div>
+          <p>
+            The best way to get a feel of our Network State is to apply for a Business Visa which allows you 30 days of
+            access to certain USDC earning opportunities as well as a glimpse into how we operate. On the expiration of
+            the 30 day grace period, you may choose to renew for a monthly fee or, better yet, become a full citizen by
+            purchasing our NFT.
+          </p>
           <a
             style={{ color: 'white' }}
-            href="https://airtable.com/appPrRJIdqWfXLtlr/shr0U1ctnua5e68RU ]."
+            href="https://airtable.com/appPrRJIdqWfXLtlr/shr0U1ctnua5e68RU"
             target="_blank"
             rel="noreferrer"
           >
-            https://airtable.com/appPrRJIdqWfXLtlr/shr0U1ctnua5e68RU
+            Apply for a Business Visa here.
           </a>
-        </p>
+        </div>
       ),
     },
     {
@@ -73,31 +77,33 @@ export function HowToJoin() {
       heading: 'Our NFT',
       shortDesc: 'Become a Citizen and join our network state.',
       longDesc: (
-        <p>
-          Our NFT is the highest and only proof of citizenship and grants you full access to all aspects of our Network
-          State. Keeping with Dunbar's number, the collection is limited to 100 members only. The choice of animals is a
-          strong reference to the Orwelian masterpiece Animal Farm, only that we believe all animals are equal & none
-          are more equal than others. Put simply, no NFT has any special traits that grant it any superiority over
-          another. This is a key point underpinning our Network State's culture. You can get yours here -
+        <div>
+          <p>
+            Our NFT is the highest and only proof of citizenship and grants you full access to all aspects of our
+            Network State. Keeping with Dunbar's number, the collection is limited to 100 members only. The choice of
+            animals is a strong reference to the Orwelian masterpiece Animal Farm, only that we believe all animals are
+            equal & none are more equal than others. Put simply, no NFT has any special traits that grant it any
+            superiority over another. This is a key point underpinning our Network State's culture
+          </p>
           <a
             style={{ color: 'white' }}
             href="https://www.tensor.trade/trade/deanslist"
             target="_blank"
             rel="noreferrer"
           >
-            https://www.tensor.trade/trade/deanslist
+            Get yours here
           </a>
-          &nbsp;and stake it here&nbsp;
+          &nbsp;and&nbsp;
           <a
             style={{ color: 'white' }}
             href="https://stake.diamondvaults.io/vault/Deanslist"
             target="_blank"
             rel="noreferrer"
           >
-            https://stake.diamondvaults.io/vault/Deanslist
+            stake it here
           </a>
           &nbsp;to earn the $DEAN token.
-        </p>
+        </div>
       ),
     },
     {
@@ -106,42 +112,42 @@ export function HowToJoin() {
       shortDesc: 'Welcome to a new token design for decentralized communities',
       longDesc: (
         <p>
-          The $DEAN token -
+          The{' '}
           <a
             style={{ color: 'white' }}
             href="https://solscan.io/token/Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a8"
             target="_blank"
             rel="noreferrer"
           >
-            https://solscan.io/token/Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a8
-          </a>
-          &nbsp;built on the SPL standard, has two main utilities - serve as a polling currency for our token governance
-          on Realms and as a participation token to access tasks that pay out in USDC. We are slowly integrating the
-          token into more operational use cases that set a bar for participation. &nbsp;
+            $DEAN
+          </a>{' '}
+          token, built on the SPL standard, has two main utilities - serve as a polling currency for our token
+          governance on Realms and as a participation token to access tasks that pay out in USDC. We are slowly
+          integrating the token into more operational use cases that set a bar for participation. &nbsp;
           <br />
-          While there is no official market, a swap pool is functional here&nbsp;
+          While there is no official market, a swap pool is functional &nbsp;
           <a
             style={{ color: 'white' }}
             href="https://raydium.io/swap/?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a&fixed=out"
             target="_blank"
             rel="noreferrer"
           >
-            https://raydium.io/swap/?inputCurrency=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputCurrency=Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a&fixed=out
+            here
           </a>
           &nbsp; and is an inspired initiative to improve access to the token for our Business Visa holders so that they
           may participate in tasks. Primarily, token distribution is via staking your Dean's List NFT or through
           reputation emissions till the time the mint authority is active.&nbsp;
           <br />
-          You can read more about our token design here&nbsp;
+          You can read more about our token design &nbsp;
           <a
             style={{ color: 'white' }}
             href="https://deanmachine.medium.com/participation-a-new-idea-for-community-token-design-c7d9da025df3"
             target="_blank"
             rel="noreferrer"
           >
-            https://deanmachine.medium.com/participation-a-new-idea-for-community-token-design-c7d9da025df3
+            here
           </a>
-          &nbsp;& here&nbsp;
+          .
         </p>
       ),
     },
@@ -150,21 +156,23 @@ export function HowToJoin() {
       heading: 'In Real Life',
       shortDesc: 'Find us in real life.',
       longDesc: (
-        <p>
-          To fully transition to a Network State, it is our goal to enable in person meetings between our citizens, to
-          establish embassies & acquire real world assets.
-          <br />
+        <div>
+          <p>
+            To fully transition to a Network State, it is our goal to enable in person meetings between our citizens, to
+            establish embassies & acquire real world assets.
+            <br />
+          </p>
           The first ever meeting of the Dean's List community took place on [Insert date] in Nigeria & you can read the
-          takeaways from it here -&nbsp;
+          takeaways from it &nbsp;
           <a
             style={{ color: 'white' }}
             href="https://drive.google.com/file/d/1uRyBFRMAE6v4aHrlM-pKb6IcOH1M2ZE2/view?usp=drivesdk"
             target="_blank"
             rel="noreferrer"
           >
-            https://drive.google.com/file/d/1uRyBFRMAE6v4aHrlM-pKb6IcOH1M2ZE2/view?usp=drivesdk
+            here
           </a>
-        </p>
+        </div>
       ),
     },
   ]
