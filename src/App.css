@@ -23,10 +23,13 @@ body {
 
 .primary-button {
   padding: 15px;
+  font-size: 24px;
   background: linear-gradient(45deg, #c5ecff, #e496ff);
   border-color: transparent;
   border-radius: 16.3px;
-  width: 200px;
+  width: 250px;
+  color: #111;
+  text-decoration: none;
 }
 
 .primary-text {
