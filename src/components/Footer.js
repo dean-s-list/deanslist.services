@@ -1,6 +1,7 @@
 import React from 'react'
 import solanaImg from '../assets/solana.svg'
-import groupImg from '../assets/icon-group.svg'
+
+import { FooterLinks } from './FooterLinks'
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
           <p className="primary-text">© 2023 Dean's List DAO. All rights reserved.</p>
         </div>
         <div>
-          <img src={groupImg} alt="Group" />
+          <FooterLinks />
         </div>
       </div>
     </div>
